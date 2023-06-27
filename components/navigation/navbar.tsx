@@ -29,10 +29,7 @@ export default function Navbar() {
 			<Link href="/">
 				<div className={style.logoContainer}>
 					{/* <Image src={mantleSeaLogo} height={80} width={200} alt="mantle logo" /> */}
-					<div
-						href="/"
-						target={"_blank"}
-						className="text-[32px] text-white font-serif"
+					<div className="text-[32px] text-white font-serif"
 					>
 						POLKA.3
 					</div>
@@ -69,7 +66,7 @@ export default function Navbar() {
 				<Link href="/searching">
 					{/* <div className={style.headerItem}> Streaming </div> */}
 				</Link>
-			
+
 				<div
 					className={style.headerItem}
 					onClick={() => {
@@ -78,7 +75,7 @@ export default function Navbar() {
 				>
 					Explore
 				</div>
-				
+
 				{/* <div className={style.headerIcon} onClick={() => { router.push(`/profile/${address}`) }}> */}
 				<div
 					className={style.headerIcon}

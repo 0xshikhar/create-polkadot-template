@@ -1,5 +1,5 @@
 import styles from "../styles/InstructionsComponent.module.css";
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 
 export default function InstructionsComponent() {
 	const router = useRouter();
@@ -14,7 +14,7 @@ export default function InstructionsComponent() {
 
 					<p>
 						Get started by editing this page in{" "}
-						<span>/pages/index.js</span>
+						<span>/pages/index.tsx</span>
 					</p>
 				</header>
 			</div>
