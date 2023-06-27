@@ -92,7 +92,7 @@ export default function Navbar() {
 					<MdOutlineAccountBalanceWallet />
 				</div>
 				<div>
-					<Wallet />
+					{/* <Wallet /> */}
 				</div>
 			</div>
 		</div>
